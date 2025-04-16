@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box; //cambia la separación de los elementos
+  margin: 0; 
+  padding:0;
+}
+
+header{
+  width: 400px;
+  height: 100vh;
+  background-color: rgb(1, 1, 90);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-top-right-radius: 30px;
+  border-top-right-radius: 30px;
+
+ }
+
+ header div{
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  border-radius: 50%
+
+ }
+
+ header nav,
+ header nav ul{
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ header nav ul{
+  flex-direction:  column;
+  justify-content: flex-start;
+  gap: 30px; //Separación entre elementos
+
+ }
+
+ header nav ul li{
+  width: 80%;
+  background-color: white;
+  height: 40px;
+ }
+
